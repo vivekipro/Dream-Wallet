@@ -1,0 +1,79 @@
+.font_size {
+  font-size: 14px;
+  font-weight: 500;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.bright {
+  filter: brightness(75%);
+}
+.hr_custom {
+  background-color: orange;
+  height: 4px;
+  width: 128px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+}
+@media only screen and (max-width: 480px) {
+  .media_custom {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+}
+.progress {
+  height: 8px !important;
+}
+.text_justify {
+  text-align: justify;
+}
+.custom_img {
+  /* background: url(./Images/blue.jpg);
+  background-size: cover;
+  opacity: 0.7; */
+  background-color: #1B9A91;
+}
+.custom_img2 {
+  content: "";
+  background: url(./Images/hands_png_multiple.png) no-repeat;
+  background-size: cover;
+  height: 240px;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+  /* opacity: 0.7; */
+}
+.text_custom {
+  text-shadow: 1px 1px black;
+}
+.lit {
+  color: #d440b9;
+}
+.border-image {
+  position: absolute;
+  top: -50px;
+  left: 38%;
+}
+.btn_text {
+  font-size: 13px;
+}
+.img_custom {
+  height: 220px;
+}
+td {
+  border: none;
+}
+.doted_border {
+  border-left: 1px dotted white;
+  border-right: 1px dotted white;
+}
+.card_hover:hover 
+{
+    background-color: #29cdb6c9!important; 
+}
+.card_hover:hover p
+{
+   color: whitesmoke!important;
+}
